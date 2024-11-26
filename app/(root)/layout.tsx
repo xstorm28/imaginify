@@ -1,6 +1,7 @@
 
 import MovibleNav from '@/components/shared/MovibleNav'
 import SideBara from '@/components/shared/SideBara'
+import mongoose from 'mongoose';
 
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
