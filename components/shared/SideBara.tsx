@@ -7,8 +7,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react'
 import { Button } from '../ui/button';
-
-
+// import mongoose from 'mongoose';
+// console.log('Connection state:', mongoose.connection.readyState);
 
 const SideBara = () => {
     const pathname = usePathname();
