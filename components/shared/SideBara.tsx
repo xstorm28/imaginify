@@ -8,8 +8,12 @@ import { usePathname } from 'next/navigation';
 import React from 'react'
 import { Button } from '../ui/button';
 
+
+
 const SideBara = () => {
     const pathname = usePathname();
+
+    
 
     return (
       <aside className="sidebar">
