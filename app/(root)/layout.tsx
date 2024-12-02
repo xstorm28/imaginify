@@ -1,8 +1,8 @@
 
 import MovibleNav from '@/components/shared/MovibleNav'
 import SideBara from '@/components/shared/SideBara'
-import mongoose from 'mongoose';
 
+import { Toaster } from "@/components/ui/toaster"
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -14,6 +14,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <div className="wrapper">
           {children}
         </div>
+       <Toaster />
       </div>
       
 
